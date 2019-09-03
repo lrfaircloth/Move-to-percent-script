@@ -1,0 +1,12 @@
+
+editor: length = Get selection length
+
+section = length * (0.9)
+
+start = Get start of selection
+
+time = section + start
+
+Move cursor to: time
+
+endeditor
